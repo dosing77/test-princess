@@ -335,3 +335,209 @@
 [21-Mar-2021 15:13:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
 [21-Mar-2021 15:13:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
 [21-Mar-2021 15:13:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:14:08 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:14:09 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:14:13 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:14:14 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:14:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:14:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:14:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:14:48 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:31 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:32 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:33 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:34 UTC] PHP Warning:  Array to string conversion in D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[21-Mar-2021 15:15:34 UTC] PHP Stack trace:
+[21-Mar-2021 15:15:34 UTC] PHP   1. {main}() D:\Wordpress\test-princess\app\public\wp-cron.php:0
+[21-Mar-2021 15:15:34 UTC] PHP   2. wp_reschedule_event() D:\Wordpress\test-princess\app\public\wp-cron.php:124
+[21-Mar-2021 15:15:34 UTC] PHP   3. wp_schedule_event() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:438
+[21-Mar-2021 15:15:34 UTC] PHP   4. _set_cron_array() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:312
+[21-Mar-2021 15:15:34 UTC] PHP   5. update_option() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:1192
+[21-Mar-2021 15:15:34 UTC] PHP   6. apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\option.php:395
+[21-Mar-2021 15:15:34 UTC] PHP   7. WP_Hook->apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\plugin.php:212
+[21-Mar-2021 15:15:34 UTC] PHP   8. LocalWP_Live_Link_Helper->make_link_local() D:\Wordpress\test-princess\app\public\wp-includes\class-wp-hook.php:294
+[21-Mar-2021 15:15:34 UTC] PHP   9. LocalWP_Live_Link_Helper->replace_host() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[21-Mar-2021 15:15:34 UTC] PHP  10. str_replace() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
+[21-Mar-2021 15:15:34 UTC] PHP Warning:  Array to string conversion in D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[21-Mar-2021 15:15:34 UTC] PHP Stack trace:
+[21-Mar-2021 15:15:34 UTC] PHP   1. {main}() D:\Wordpress\test-princess\app\public\wp-cron.php:0
+[21-Mar-2021 15:15:34 UTC] PHP   2. wp_reschedule_event() D:\Wordpress\test-princess\app\public\wp-cron.php:124
+[21-Mar-2021 15:15:34 UTC] PHP   3. wp_schedule_event() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:438
+[21-Mar-2021 15:15:34 UTC] PHP   4. _set_cron_array() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:312
+[21-Mar-2021 15:15:34 UTC] PHP   5. update_option() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:1192
+[21-Mar-2021 15:15:34 UTC] PHP   6. apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\option.php:395
+[21-Mar-2021 15:15:34 UTC] PHP   7. WP_Hook->apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\plugin.php:212
+[21-Mar-2021 15:15:34 UTC] PHP   8. LocalWP_Live_Link_Helper->make_link_local() D:\Wordpress\test-princess\app\public\wp-includes\class-wp-hook.php:294
+[21-Mar-2021 15:15:34 UTC] PHP   9. LocalWP_Live_Link_Helper->replace_host() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[21-Mar-2021 15:15:34 UTC] PHP  10. str_replace() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
+[21-Mar-2021 15:15:34 UTC] PHP Warning:  Array to string conversion in D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[21-Mar-2021 15:15:34 UTC] PHP Stack trace:
+[21-Mar-2021 15:15:34 UTC] PHP   1. {main}() D:\Wordpress\test-princess\app\public\wp-cron.php:0
+[21-Mar-2021 15:15:34 UTC] PHP   2. wp_reschedule_event() D:\Wordpress\test-princess\app\public\wp-cron.php:124
+[21-Mar-2021 15:15:34 UTC] PHP   3. wp_schedule_event() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:438
+[21-Mar-2021 15:15:34 UTC] PHP   4. _set_cron_array() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:312
+[21-Mar-2021 15:15:34 UTC] PHP   5. update_option() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:1192
+[21-Mar-2021 15:15:34 UTC] PHP   6. apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\option.php:395
+[21-Mar-2021 15:15:34 UTC] PHP   7. WP_Hook->apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\plugin.php:212
+[21-Mar-2021 15:15:34 UTC] PHP   8. LocalWP_Live_Link_Helper->make_link_local() D:\Wordpress\test-princess\app\public\wp-includes\class-wp-hook.php:294
+[21-Mar-2021 15:15:34 UTC] PHP   9. LocalWP_Live_Link_Helper->replace_host() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[21-Mar-2021 15:15:34 UTC] PHP  10. str_replace() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
+[21-Mar-2021 15:15:34 UTC] PHP Warning:  Array to string conversion in D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[21-Mar-2021 15:15:34 UTC] PHP Stack trace:
+[21-Mar-2021 15:15:34 UTC] PHP   1. {main}() D:\Wordpress\test-princess\app\public\wp-cron.php:0
+[21-Mar-2021 15:15:34 UTC] PHP   2. wp_reschedule_event() D:\Wordpress\test-princess\app\public\wp-cron.php:124
+[21-Mar-2021 15:15:34 UTC] PHP   3. wp_schedule_event() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:438
+[21-Mar-2021 15:15:34 UTC] PHP   4. _set_cron_array() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:312
+[21-Mar-2021 15:15:34 UTC] PHP   5. update_option() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:1192
+[21-Mar-2021 15:15:34 UTC] PHP   6. apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\option.php:395
+[21-Mar-2021 15:15:34 UTC] PHP   7. WP_Hook->apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\plugin.php:212
+[21-Mar-2021 15:15:34 UTC] PHP   8. LocalWP_Live_Link_Helper->make_link_local() D:\Wordpress\test-princess\app\public\wp-includes\class-wp-hook.php:294
+[21-Mar-2021 15:15:34 UTC] PHP   9. LocalWP_Live_Link_Helper->replace_host() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[21-Mar-2021 15:15:34 UTC] PHP  10. str_replace() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
+[21-Mar-2021 15:15:34 UTC] PHP Warning:  Array to string conversion in D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[21-Mar-2021 15:15:34 UTC] PHP Stack trace:
+[21-Mar-2021 15:15:34 UTC] PHP   1. {main}() D:\Wordpress\test-princess\app\public\wp-cron.php:0
+[21-Mar-2021 15:15:34 UTC] PHP   2. wp_reschedule_event() D:\Wordpress\test-princess\app\public\wp-cron.php:124
+[21-Mar-2021 15:15:34 UTC] PHP   3. wp_schedule_event() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:438
+[21-Mar-2021 15:15:34 UTC] PHP   4. _set_cron_array() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:312
+[21-Mar-2021 15:15:34 UTC] PHP   5. update_option() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:1192
+[21-Mar-2021 15:15:34 UTC] PHP   6. apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\option.php:395
+[21-Mar-2021 15:15:34 UTC] PHP   7. WP_Hook->apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\plugin.php:212
+[21-Mar-2021 15:15:34 UTC] PHP   8. LocalWP_Live_Link_Helper->make_link_local() D:\Wordpress\test-princess\app\public\wp-includes\class-wp-hook.php:294
+[21-Mar-2021 15:15:34 UTC] PHP   9. LocalWP_Live_Link_Helper->replace_host() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[21-Mar-2021 15:15:34 UTC] PHP  10. str_replace() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
+[21-Mar-2021 15:15:34 UTC] PHP Warning:  Array to string conversion in D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[21-Mar-2021 15:15:34 UTC] PHP Stack trace:
+[21-Mar-2021 15:15:34 UTC] PHP   1. {main}() D:\Wordpress\test-princess\app\public\wp-cron.php:0
+[21-Mar-2021 15:15:34 UTC] PHP   2. wp_reschedule_event() D:\Wordpress\test-princess\app\public\wp-cron.php:124
+[21-Mar-2021 15:15:34 UTC] PHP   3. wp_schedule_event() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:438
+[21-Mar-2021 15:15:34 UTC] PHP   4. _set_cron_array() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:312
+[21-Mar-2021 15:15:34 UTC] PHP   5. update_option() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:1192
+[21-Mar-2021 15:15:34 UTC] PHP   6. apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\option.php:395
+[21-Mar-2021 15:15:34 UTC] PHP   7. WP_Hook->apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\plugin.php:212
+[21-Mar-2021 15:15:34 UTC] PHP   8. LocalWP_Live_Link_Helper->make_link_local() D:\Wordpress\test-princess\app\public\wp-includes\class-wp-hook.php:294
+[21-Mar-2021 15:15:34 UTC] PHP   9. LocalWP_Live_Link_Helper->replace_host() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[21-Mar-2021 15:15:34 UTC] PHP  10. str_replace() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
+[21-Mar-2021 15:15:34 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\Wordpress\test-princess\app\public\wp-includes\cron.php:511
+Stack trace:
+#0 D:\Wordpress\test-princess\app\public\wp-cron.php(127): wp_unschedule_event(1616337841, 'recovery_mode_c...', Array)
+#1 {main}
+  thrown in D:\Wordpress\test-princess\app\public\wp-includes\cron.php on line 511
+[21-Mar-2021 15:15:34 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:35 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:35 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:36 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:37 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:37 UTC] PHP Warning:  Array to string conversion in D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[21-Mar-2021 15:15:37 UTC] PHP Stack trace:
+[21-Mar-2021 15:15:37 UTC] PHP   1. {main}() D:\Wordpress\test-princess\app\public\index.php:0
+[21-Mar-2021 15:15:37 UTC] PHP   2. require() D:\Wordpress\test-princess\app\public\index.php:17
+[21-Mar-2021 15:15:37 UTC] PHP   3. require_once() D:\Wordpress\test-princess\app\public\wp-blog-header.php:13
+[21-Mar-2021 15:15:37 UTC] PHP   4. require_once() D:\Wordpress\test-princess\app\public\wp-load.php:37
+[21-Mar-2021 15:15:37 UTC] PHP   5. require_once() D:\Wordpress\test-princess\app\public\wp-config.php:77
+[21-Mar-2021 15:15:37 UTC] PHP   6. WP_Recovery_Mode->initialize() D:\Wordpress\test-princess\app\public\wp-settings.php:385
+[21-Mar-2021 15:15:37 UTC] PHP   7. wp_schedule_event() D:\Wordpress\test-princess\app\public\wp-includes\class-wp-recovery-mode.php:99
+[21-Mar-2021 15:15:37 UTC] PHP   8. _set_cron_array() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:312
+[21-Mar-2021 15:15:37 UTC] PHP   9. update_option() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:1192
+[21-Mar-2021 15:15:37 UTC] PHP  10. apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\option.php:395
+[21-Mar-2021 15:15:37 UTC] PHP  11. WP_Hook->apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\plugin.php:212
+[21-Mar-2021 15:15:37 UTC] PHP  12. LocalWP_Live_Link_Helper->make_link_local() D:\Wordpress\test-princess\app\public\wp-includes\class-wp-hook.php:294
+[21-Mar-2021 15:15:37 UTC] PHP  13. LocalWP_Live_Link_Helper->replace_host() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[21-Mar-2021 15:15:37 UTC] PHP  14. str_replace() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
+[21-Mar-2021 15:15:37 UTC] PHP Warning:  Array to string conversion in D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php on line 155
+[21-Mar-2021 15:15:37 UTC] PHP Stack trace:
+[21-Mar-2021 15:15:37 UTC] PHP   1. {main}() D:\Wordpress\test-princess\app\public\index.php:0
+[21-Mar-2021 15:15:37 UTC] PHP   2. require() D:\Wordpress\test-princess\app\public\index.php:17
+[21-Mar-2021 15:15:37 UTC] PHP   3. require_once() D:\Wordpress\test-princess\app\public\wp-blog-header.php:13
+[21-Mar-2021 15:15:37 UTC] PHP   4. require_once() D:\Wordpress\test-princess\app\public\wp-load.php:37
+[21-Mar-2021 15:15:37 UTC] PHP   5. require_once() D:\Wordpress\test-princess\app\public\wp-config.php:77
+[21-Mar-2021 15:15:37 UTC] PHP   6. WP_Site_Health::get_instance() D:\Wordpress\test-princess\app\public\wp-settings.php:544
+[21-Mar-2021 15:15:37 UTC] PHP   7. WP_Site_Health->__construct() D:\Wordpress\test-princess\app\public\wp-admin\includes\class-wp-site-health.php:64
+[21-Mar-2021 15:15:37 UTC] PHP   8. WP_Site_Health->maybe_create_scheduled_event() D:\Wordpress\test-princess\app\public\wp-admin\includes\class-wp-site-health.php:36
+[21-Mar-2021 15:15:37 UTC] PHP   9. wp_schedule_event() D:\Wordpress\test-princess\app\public\wp-admin\includes\class-wp-site-health.php:2718
+[21-Mar-2021 15:15:37 UTC] PHP  10. _set_cron_array() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:312
+[21-Mar-2021 15:15:37 UTC] PHP  11. update_option() D:\Wordpress\test-princess\app\public\wp-includes\cron.php:1192
+[21-Mar-2021 15:15:37 UTC] PHP  12. apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\option.php:395
+[21-Mar-2021 15:15:37 UTC] PHP  13. WP_Hook->apply_filters() D:\Wordpress\test-princess\app\public\wp-includes\plugin.php:212
+[21-Mar-2021 15:15:37 UTC] PHP  14. LocalWP_Live_Link_Helper->make_link_local() D:\Wordpress\test-princess\app\public\wp-includes\class-wp-hook.php:294
+[21-Mar-2021 15:15:37 UTC] PHP  15. LocalWP_Live_Link_Helper->replace_host() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:187
+[21-Mar-2021 15:15:37 UTC] PHP  16. str_replace() D:\Wordpress\test-princess\app\public\wp-content\mu-plugins\local-by-flywheel-live-link-helper.php:155
+[21-Mar-2021 15:15:37 UTC] PHP Fatal error:  Uncaught TypeError: Cannot access offset of type string on string in D:\Wordpress\test-princess\app\public\wp-includes\cron.php:305
+Stack trace:
+#0 D:\Wordpress\test-princess\app\public\wp-includes\https-detection.php(169): wp_schedule_event(1616339737, 'twicedaily', 'wp_https_detect...')
+#1 D:\Wordpress\test-princess\app\public\wp-includes\class-wp-hook.php(292): wp_schedule_https_detection('')
+#2 D:\Wordpress\test-princess\app\public\wp-includes\class-wp-hook.php(316): WP_Hook->apply_filters(NULL, Array)
+#3 D:\Wordpress\test-princess\app\public\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 D:\Wordpress\test-princess\app\public\wp-settings.php(560): do_action('init')
+#5 D:\Wordpress\test-princess\app\public\wp-config.php(77): require_once('D:\\Wordpress\\te...')
+#6 D:\Wordpress\test-princess\app\public\wp-load.php(37): require_once('D:\\Wordpress\\te...')
+#7 D:\Wordpress\test-princess\app\public\wp-blog-header.php(13): require_once('D:\\Wordpress\\te...')
+#8 D:\Wordpress\test-princess\app\public\index.php(17): require('D:\\Wordpress\\te...')
+#9 {main}
+  thrown in D:\Wordpress\test-princess\app\public\wp-includes\cron.php on line 305
+[21-Mar-2021 15:15:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:38 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: 2a02:8108:48c0:a598:98fd:3909:2757:7248:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:41 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:41 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:42 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:43 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:46 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:47 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:51 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:52 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:53 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:54 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:58 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:15:59 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:00 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:01 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:02 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:03 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:04 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:04 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:04 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:05 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:06 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:39 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:44 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:45 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:55 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:56 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:16:57 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:17:14 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:17:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:17:15 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
+[21-Mar-2021 15:17:16 UTC] Xdebug: [Step Debug] Time-out connecting to debugging client, waited: 200 ms. Tried: ::1:9000 (from HTTP_X_FORWARDED_FOR HTTP header), localhost:9000 (fallback through xdebug.client_host/xdebug.client_port) :-(
